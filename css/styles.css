@@ -67,6 +67,29 @@ html {
     margin-right: 2rem !important;
 }
 
+.grid{
+    display: grid;
+    gap: 9.6rem;
+}
+
+.container {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 0 3.2rem;
+}
+
+.grid--2--columns {
+    grid-template-columns: repeat(2,1fr);
+}
+
+.grid--3--columns {
+    grid-template-columns: repeat(3,1fr);
+}
+
+.grid--4--columns {
+    grid-template-columns: repeat(4,1fr);
+}
+
 /*****************************************************/
 /***************      Header        ******************/
 /*****************************************************/
@@ -183,3 +206,16 @@ html {
     color:#cf711f;
     font-weight: 700;
 }
+
+/*****************************************************/
+/***************    section How     ******************/
+/*****************************************************/
+
+.section-how {
+    padding: 9.6rem 0;
+}
+
+.step-img {
+    width: 50%;
+}
+
